@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rat in a Maze</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Rat in a Maze</h1>
+    <div class="controls">
+      <label for="n">Size (N x N):</label>
+      <input type="number" id="n" value="5" min="2" />
+      <label for="blocks">Blocked Cells:</label>
+      <input type="number" id="blocks" value="5" min="0" />
+      <button id="start">Start</button>
+      <button id="pause">Pause</button>
+      <button id="restart">Restart</button>
+    </div>
+    <div id="maze"></div>
+    <div id="message"></div>
+
+    <script src="maze.js"></script>
+  </body>
+</html>

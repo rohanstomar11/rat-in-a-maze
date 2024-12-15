@@ -1,0 +1,95 @@
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f7f7;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  flex-direction: row; /* Change to row */
+  align-items: center;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.controls label,
+.controls input,
+.controls button {
+  font-size: 16px;
+}
+
+.controls label {
+  margin-right: 5px;
+}
+
+#maze {
+  display: grid;
+  grid-template-columns: repeat(var(--n), 40px);
+  grid-gap: 5px;
+  margin-bottom: 20px;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.blocked {
+  background-color: #333;
+}
+
+.rat {
+  background-color: #ff6347;
+  border: 2px solid #ff6347;
+  border-radius: 50%;
+}
+
+.destination {
+  background-color: #32cd32;
+  border-radius: 50%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#message {
+  font-size: 18px;
+  color: #007bff;
+}
+.path {
+  background-color: yellow;
+}
+button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
