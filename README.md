@@ -3,7 +3,7 @@
 A simple JavaScript project that visualizes a rat finding its way through a maze. It demonstrates **pathfinding algorithms** in a fun and interactive way.
 
 ## 🚀 Demo
-![Rat solving the maze](./screenshots/rate-in-a-maze.gif)  
+![Rat solving the maze](https://github.com/rohanstomar11/rat-in-a-maze/blob/master/screenshots/rat-in-a-maze.gif)  
 
 ## 🎮 Features
 - 🔀 Random maze generation  
