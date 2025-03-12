@@ -19,3 +19,12 @@ A simple JavaScript project that visualizes a rat finding its way through a maze
 1. Clone this repository:  
    ```bash
    git clone https://github.com/rohanstomar11/rat-in-a-maze.git
+   ```
+2. Open `index.html` in your browser.
+
+## 🚀 Future Improvements
+- Add more pathfinding algorithms (DFS, BFS, A*)  
+- Improve UI with animations  
+
+## 👨‍💻 Author
+- **[Rohan Singh Tomar](https://github.com/rohanstomar11)**  
